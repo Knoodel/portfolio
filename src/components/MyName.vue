@@ -1,6 +1,6 @@
 <template>
     <h1>Łukasz Osmański</h1>
-    <p>Programista z pasji</p>
+    <h3>Programista z pasji</h3>
 </template>
 <script>
 export default {
@@ -9,15 +9,11 @@ export default {
 </script>
 <style scoped>
     h1 {
-        margin-top: 2rem;
+        margin-top: 10px;
     }
-    @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
-    p {
-        font-family: 'Marck Script', cursive;
+
+    h3 {
+        font-family: sans-serif;
         font-weight: 400;
-        color: var(--font-color);
-        font-size: 2rem;
-        text-shadow: 2px 2px 5px black;
-        user-select: none;
     }
 </style>

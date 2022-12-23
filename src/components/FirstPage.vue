@@ -17,6 +17,15 @@ export default {
 </script>
 <style scoped>
     .page {
+        height: 100vh;
+        padding: 0;
         background-color: var(--primary-color);
+    }
+
+    @media only screen and (max-width: 900px) {
+        .page {
+            height: fit-content;
+            padding: 50px 0;
+        }   
     }
 </style>

@@ -81,4 +81,18 @@ export default {
       font-size: 20px;
     }
   }
+
+  @media only screen and (max-height: 650px) {
+    h1 {
+      font-size: 60px;
+    }
+
+    h2 {
+      font-size: 45px;
+    }
+
+    h3 {
+      font-size: 25px;
+    }
+  }
 </style>

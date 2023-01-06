@@ -38,8 +38,10 @@ export default {
             height: 35vw;
         }
     }
-    .card:hover {
-        transform: scale(115%);
+    @media (pointer: fine) {
+        .card:hover {
+            transform: scale(115%);
+        }
     }
     .card img {
         width: 90%;

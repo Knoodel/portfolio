@@ -10,12 +10,12 @@ export default {
     data() {
         return {
             sources: [
+                "python.png",
                 "javascript.png",
+                "typescript.png",
                 "html.png",
-                "vue.png",
                 "php.png",
                 "sql.png",
-                "python.png"
             ]
         }
     },

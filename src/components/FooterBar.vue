@@ -1,7 +1,7 @@
 <template>
     <footer>
         <a href="mailto:lukasz.osmanski1@gmail.com"><AtIcon size="48" /></a>
-        <a href="https://github.com/LukaszOsmanski/" target="_blank"><GithubIcon size="48" /></a>
+        <a href="https://github.com/Knoodel/" target="_blank"><GithubIcon size="48" /></a>
     </footer>
 </template>
 <script>
